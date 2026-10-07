@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "id": "usr-doc-ramu",
+      "emailOrMobile": "ramu@healtrack.in",
+      "fullName": "Dr. Ramu",
+      "role": "healthcare",
+      "password": "ramu@12345",
+      "specialty": "Internal Medicine & Chronic Care"
+    },
+    {
+      "id": "usr-doc-sharma",
+      "emailOrMobile": "sharma@healtrack.in",
+      "fullName": "Dr. Sharma",
+      "role": "healthcare",
+      "password": "Sharma@12345",
+      "specialty": "Cardiology & Clinical Medicine"
+    },
+    {
+      "id": "usr-doc-raj",
+      "emailOrMobile": "raj@healtrack.in",
+      "fullName": "Dr. Raj",
+      "role": "healthcare",
+      "password": "Raj@12345",
+      "specialty": "Post-Discharge Recovery & Surgery"
+    },
+    {
+      "id": "usr-doc-newdoctor",
+      "emailOrMobile": "newdoctor@healtrack.in",
+      "fullName": "Dr. New User",
+      "role": "healthcare",
+      "password": "Doctor@12345",
+      "specialty": "General Surgery"
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat-1791385893245",
+      "invitationCode": "HT-8956",
+      "fullName": "Arjun Verma",
+      "age": "52",
+      "gender": "Male",
+      "phone": "",
+      "email": "",
+      "condition": "Orthopedic Surgery Recovery",
+      "status": "Stable",
+      "doctorName": "Dr. Raj",
+      "doctorSpecialty": "Consultant Physician",
+      "doctorEmail": "raj@healtrack.in",
+      "createdAt": "2026-10-07T15:11:33.245Z",
+      "carePlan": {
+        "diagnosis": "Orthopedic Surgery Recovery",
+        "summary": "Standard post-discharge care regimen.",
+        "medications": [],
+        "diet": [
+          "Stay hydrated with 2 liters of water daily."
+        ],
+        "activity": [
+          "15 minutes light walk daily."
+        ],
+        "symptomsToWatch": [
+          "Fever > 101°F",
+          "Persistent dizziness"
+        ],
+        "reminders": [],
+        "followUpDate": "7 days post-discharge",
+        "followUpTime": "10:00 AM"
+      },
+      "recentAlerts": []
+    },
+    {
+      "id": "pat-1790694808197",
+      "invitationCode": "HT-5634",
+      "fullName": "Kavita Rao",
+      "age": "45",
+      "gender": "Other",
+      "phone": "",
+      "email": "",
+      "condition": "Post-Operative Cardiac Recovery",
+      "status": "Stable",
+      "doctorName": "Dr. Ramu",
+      "doctorSpecialty": "Consultant Physician",
+      "doctorEmail": "ramu@healtrack.in",
+      "createdAt": "2026-09-29T15:13:28.197Z",
+      "carePlan": {
+        "diagnosis": "Post-Operative Cardiac Recovery",
+        "summary": "Standard post-discharge care regimen.",
+        "medications": [],
+        "diet": [
+          "Stay hydrated with 2 liters of water daily."
+        ],
+        "activity": [
+          "15 minutes light walk daily."
+        ],
+        "symptomsToWatch": [
+          "Fever > 101°F",
+          "Persistent dizziness"
+        ],
+        "reminders": [],
+        "followUpDate": "7 days post-discharge",
+        "followUpTime": "10:00 AM"
+      },
+      "recentAlerts": []
+    },
+    {
+      "id": "pat-default",
+      "invitationCode": "HT-8492",
+      "fullName": "Rahul Mehta",
+      "age": "48",
+      "gender": "Male",
+      "phone": "+91 98452 11094",
+      "email": "rahul.mehta@example.com",
+      "condition": "Post-discharge • Day 5 (Post-MI Stent Recovery)",
+      "status": "Stable",
+      "doctorName": "Dr. Sharma",
+      "doctorSpecialty": "Consultant Physician",
+      "doctorEmail": "sharma@healtrack.in",
+      "createdAt": "2026-09-29T15:12:39.400Z",
+      "carePlan": {
+        "id": "cp-default",
+        "patientId": "pat-default",
+        "doctorName": "Dr. Sharma",
+        "diagnosis": "Post-discharge recovery",
+        "summary": "Patient recovering well post-discharge. Adhere to daily medication regimen and hydration.",
+        "medications": [
+          {
+            "id": "m-1",
+            "name": "Paracetamol 500 mg",
+            "instructions": "1 tablet after food",
+            "time": "8:00 AM",
+            "status": "taken",
+            "color": "red"
+          },
+          {
+            "id": "m-2",
+            "name": "Atorvastatin 10 mg",
+            "instructions": "1 tablet after dinner",
+            "time": "1:00 PM",
+            "status": "pending",
+            "color": "blue"
+          },
+          {
+            "id": "m-3",
+            "name": "Pantoprazole 40 mg",
+            "instructions": "1 tablet before breakfast",
+            "time": "8:00 PM",
+            "status": "pending",
+            "color": "purple"
+          }
+        ],
+        "diet": [
+          "Low sodium (<2g/day)",
+          "Fresh fruits and leafy vegetables",
+          "Drink 2.5L water daily"
+        ],
+        "activity": [
+          "15 minutes gentle walk in the morning",
+          "Avoid heavy lifting or strenuous exercise"
+        ],
+        "symptomsToWatch": [
+          "Chest pain or tightness",
+          "Shortness of breath",
+          "Dizziness / lightheadedness",
+          "Persistent headache"
+        ],
+        "reminders": [
+          {
+            "id": "rem-1",
+            "title": "Morning Medication - Paracetamol",
+            "time": "8:00 AM",
+            "subtitle": "Take 1 tablet after breakfast",
+            "active": true
+          },
+          {
+            "id": "rem-2",
+            "title": "Afternoon Medication - Atorvastatin",
+            "time": "1:00 PM",
+            "subtitle": "Take 1 tablet after lunch",
+            "active": true
+          },
+          {
+            "id": "rem-3",
+            "title": "Night Medication - Pantoprazole",
+            "time": "8:00 PM",
+            "subtitle": "Take 1 tablet before dinner",
+            "active": true
+          }
+        ],
+        "followUpDate": "24 Sep 2026",
+        "followUpTime": "10:00 AM"
+      },
+      "recentAlerts": []
+    }
+  ],
+  "alerts": []
+}
